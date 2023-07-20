@@ -1,0 +1,73 @@
+# Arquivo .gitignore para um projeto Python e Angular
+
+# --------------
+# Python ignores
+# --------------
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pyz
+*.pyw
+env/
+venv/
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.sqlite
+*.sqlite3
+*.sql
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----
+# IDEs
+# ----
+# PyCharm
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# ----------------
+# Angular ignores
+# ----------------
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/dist
+/tmp
+/out-tsc
+
+# misc
+/.idea
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# environment configs
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+.ng_test_logs
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
